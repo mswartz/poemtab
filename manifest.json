@@ -1,0 +1,12 @@
+{
+  "name": "PoemTab",
+  "version": "1.0",
+  "description": "Mikes extension",
+  "manifest_version": 2,
+  "chrome_url_overrides" : {
+    "newtab": "home.html"
+  },
+  "permissions": [
+  "http://poetrydb.org"
+  ]
+}
